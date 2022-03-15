@@ -26,3 +26,10 @@ function stop() {
   console.log("Stop");
   clearInterval(colorInterval);
 }
+
+function count(event) {
+  const tweet = event.target.value;
+  const counter = document.querySelector(".counter");
+  counter.innerText = `${tweet.length}/10`;
+  console.log("typing", tweet.length, tweet);
+}

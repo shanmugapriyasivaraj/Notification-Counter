@@ -18,3 +18,9 @@ p {
   top: 0;
   left: 44px;
 }
+.tweet-container {
+  margin-top: 15px;
+}
+.counter {
+  margin-left: 5px;
+}

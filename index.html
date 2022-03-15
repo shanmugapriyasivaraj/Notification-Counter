@@ -15,8 +15,15 @@
     <script src="script.js"></script>
     <button onclick="clicked()">Start to Cycle Colors</button>
     <button onclick="stop()">Stop the Cycle</button>
-    <!-- <div class="tweet-container">
-      <textarea oninput="count(event)" rows="10"></textarea><span>4/40</span>
-    </div> -->
+    <div class="tweet-container">
+      <textarea
+        placeholder="What's happening?"
+        oninput="count(event)"
+        rows="10"
+        cols="20"
+        maxlength="10"
+      ></textarea
+      ><span class="counter">0/10</span>
+    </div>
   </body>
 </html>
